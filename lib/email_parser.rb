@@ -10,5 +10,5 @@ class EmailAddressParser
   end 
   
   def parse
-    csv_emails.split
+    csv_emails.split.collect do 
 end 
